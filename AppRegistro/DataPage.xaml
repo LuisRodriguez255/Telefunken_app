@@ -1,0 +1,1213 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppRegistro.DataPage">
+    <ContentPage.Content>
+        
+        <StackLayout Orientation="Horizontal"
+                     BackgroundColor="#000000"
+                     Spacing="15">
+            <Grid BackgroundColor="#dbd238" WidthRequest="75">
+                    <Label Text="Rondas"
+                           HorizontalOptions="Center"
+                           FontAttributes="Bold"
+                           TextDecorations="Underline"/>
+                    <Label Text="1/3"
+                           HorizontalOptions="Center"
+                           TranslationY="30"
+                           TextType="Text"/>
+                    <Label Text="2/3"
+                           HorizontalOptions="Center"
+                           TranslationY="60"
+                           TextType="Text"/>
+                    <Label Text="1/4"
+                           HorizontalOptions="Center"
+                           TranslationY="90"
+                           TextType="Text"/>
+                    <Label Text="2/4"
+                           HorizontalOptions="Center"
+                           TranslationY="120"
+                           TextType="Text"/>
+                    <Label Text="La quinta"
+                           HorizontalOptions="Center"
+                           TranslationY="150"
+                           TextType="Text"/>
+                    <Label Text="La chueca"
+                           HorizontalOptions="Center"
+                           TranslationY="180"
+                           TextType="Text"/>
+                    <Label Text="La larga"
+                           HorizontalOptions="Center"
+                           TranslationY="210"
+                           TextType="Text"/>
+                    <Label Text="Total:"
+                           HorizontalOptions="Center"
+                           TranslationY="240"
+                           TextType="Text"/>
+                    <Label Text="Compras:"
+                           HorizontalOptions="Center"
+                           TranslationY="270"
+                           TextType="Text"/>
+            </Grid>
+            <Grid BackgroundColor="#dbd238" WidthRequest="75">
+                <Label Text=" J1"
+                       x:Name="lbl_j1"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p1_j1"
+                           TranslationY="30"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p2_j1"
+                           TranslationY="60"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p3_j1"
+                           TranslationY="90"
+                           HorizontalOptions="Center"/>
+                
+                <Label x:Name="lbl_p4_j1"
+                           TranslationY="120"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p5_j1"
+                           TranslationY="150"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p6_j1"
+                           TranslationY="180"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p7_j1"
+                           TranslationY="210"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_total_j1"
+                           TranslationY="240"
+                           HorizontalOptions="Center"/>
+
+                <StackLayout >
+                    <Entry IsPassword="False"
+                           x:Name="tbx_j1"
+                           Completed="tbx_j1_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="35"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="25"/>
+
+
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p1_j1"
+                           Completed="tbx_p1_j1_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p2_j1"
+                           Completed="tbx_p2_j1_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p3_j1"
+                           Completed="tbx_p3_j1_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p4_j1"
+                           Completed="tbx_p4_j1_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p5_j1"
+                           Completed="tbx_p5_j1_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p6_j1"
+                           Completed="tbx_p6_j1_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p7_j1"
+                           Completed="tbx_p7_j1_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+
+                    <Button TranslationY="15"
+                            HeightRequest="35"
+                            x:Name="btn_total_j1"
+                            Text="TOTAL"
+                            Clicked="btn_total_j1_Clicked"
+                            IsVisible="false"/>
+
+                    <Button Text="+"
+                            ScaleX="0.3"
+                            ScaleY="0.5"
+                            TranslationX="-20"
+                            TranslationY="40"
+                            x:Name="btn_compra_j1"
+                            Clicked="btn_compra_j1_Clicked"
+                            IsVisible="false"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            BorderColor="#af1a1a"
+                            BackgroundColor="#cc2b2b"
+                            BorderWidth="3"
+                            CornerRadius="15"/>
+                    <Label Text="0"
+                           x:Name="lbl_compra_j1"
+                           TranslationX="55"
+                           IsVisible="false"/>
+                </StackLayout>
+            </Grid>
+            <Grid BackgroundColor="#dbd238" WidthRequest="75">
+                <Label Text=" J2"
+                       x:Name="lbl_j2"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p1_j2"
+                           TranslationY="30"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p2_j2"
+                           TranslationY="60"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p3_j2"
+                           TranslationY="90"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p4_j2"
+                           TranslationY="120"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p5_j2"
+                           TranslationY="150"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p6_j2"
+                           TranslationY="180"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p7_j2"
+                           TranslationY="210"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_total_j2"
+                           TranslationY="240"
+                           HorizontalOptions="Center"/>
+                
+                <StackLayout >
+                    <Entry IsPassword="False"
+                           x:Name="tbx_j2"
+                           Completed="tbx_j2_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="35"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="25"/>
+
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p1_j2"
+                           Completed="tbx_p1_j2_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p2_j2"
+                           Completed="tbx_p2_j2_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p3_j2"
+                           Completed="tbx_p3_j2_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p4_j2"
+                           Completed="tbx_p4_j2_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p5_j2"
+                           Completed="tbx_p5_j2_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p6_j2"
+                           Completed="tbx_p6_j2_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p7_j2"
+                           Completed="tbx_p7_j2_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+
+                    <Button TranslationY="15"
+                            HeightRequest="35"
+                            x:Name="btn_total_j2"
+                            Text="TOTAL"
+                            Clicked="btn_total_j2_Clicked"
+                            IsVisible="false"/>
+
+                    <Button Text="+"
+                            ScaleX="0.3"
+                            ScaleY="0.5"
+                            TranslationX="-20"
+                            TranslationY="40"
+                            x:Name="btn_compra_j2"
+                            Clicked="btn_compra_j2_Clicked"
+                            IsVisible="false"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            BorderColor="#af1a1a"
+                            BackgroundColor="#cc2b2b"
+                            BorderWidth="3"
+                            CornerRadius="15"/>
+                    <Label Text="0"
+                           x:Name="lbl_compra_j2"
+                           TranslationX="55"
+                           IsVisible="false"/>
+                </StackLayout>
+            </Grid>
+            
+            <Grid BackgroundColor="#dbd238" WidthRequest="75">
+                <Label Text=" J3"
+                       x:Name="lbl_j3"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label x:Name="lbl_p1_j3"
+                           TranslationY="30"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p2_j3"
+                           TranslationY="60"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p3_j3"
+                           TranslationY="90"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p4_j3"
+                           TranslationY="120"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p5_j3"
+                           TranslationY="150"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p6_j3"
+                           TranslationY="180"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p7_j3"
+                           TranslationY="210"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_total_j3"
+                           TranslationY="240"
+                           HorizontalOptions="Center"/>
+                <StackLayout >
+                    <Entry IsPassword="False"
+                           x:Name="tbx_j3"
+                           Completed="tbx_j3_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="35"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="25"/>
+
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p1_j3"
+                           Completed="tbx_p1_j3_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p2_j3"
+                           Completed="tbx_p2_j3_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p3_j3"
+                           Completed="tbx_p3_j3_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p4_j3"
+                           Completed="tbx_p4_j3_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p5_j3"
+                           Completed="tbx_p5_j3_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p6_j3"
+                           Completed="tbx_p6_j3_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p7_j3"
+                           Completed="tbx_p7_j3_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+
+                    <Button TranslationY="15"
+                            HeightRequest="35"
+                            x:Name="btn_total_j3"
+                            Text="TOTAL"
+                            Clicked="btn_total_j3_Clicked"
+                            IsVisible="false"/>
+
+                    <Button Text="+"
+                            ScaleX="0.3"
+                            ScaleY="0.5"
+                            TranslationX="-20"
+                            TranslationY="40"
+                            x:Name="btn_compra_j3"
+                            Clicked="btn_compra_j3_Clicked"
+                            IsVisible="false"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            BorderColor="#af1a1a"
+                            BackgroundColor="#cc2b2b"
+                            BorderWidth="3"
+                            CornerRadius="15"/>
+                    <Label Text="0"
+                           x:Name="lbl_compra_j3"
+                           TranslationX="55"
+                           IsVisible="false"/>
+                </StackLayout>
+            </Grid>
+            <Grid BackgroundColor="#dbd238" WidthRequest="75">
+                <Label Text=" J4"
+                       x:Name="lbl_j4"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label x:Name="lbl_p1_j4"
+                           TranslationY="30"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p2_j4"
+                           TranslationY="60"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p3_j4"
+                           TranslationY="90"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p4_j4"
+                           TranslationY="120"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p5_j4"
+                           TranslationY="150"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p6_j4"
+                           TranslationY="180"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p7_j4"
+                           TranslationY="210"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_total_j4"
+                           TranslationY="240"
+                           HorizontalOptions="Center"/>
+                <StackLayout >
+                    <Entry IsPassword="False"
+                           x:Name="tbx_j4"
+                           Completed="tbx_j4_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="35"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="25"/>
+
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p1_j4"
+                           Completed="tbx_p1_j4_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p2_j4"
+                           Completed="tbx_p2_j4_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p3_j4"
+                           Completed="tbx_p3_j4_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p4_j4"
+                           Completed="tbx_p4_j4_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p5_j4"
+                           Completed="tbx_p5_j4_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p6_j4"
+                           Completed="tbx_p6_j4_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p7_j4"
+                           Completed="tbx_p7_j4_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+
+                    <Button TranslationY="15"
+                            HeightRequest="35"
+                            x:Name="btn_total_j4"
+                            Text="TOTAL"
+                            Clicked="btn_total_j4_Clicked"
+                            IsVisible="false"/>
+
+                    <Button Text="+"
+                            ScaleX="0.3"
+                            ScaleY="0.5"
+                            TranslationX="-20"
+                            TranslationY="40"
+                            x:Name="btn_compra_j4"
+                            Clicked="btn_compra_j4_Clicked"
+                            IsVisible="false"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            BorderColor="#af1a1a"
+                            BackgroundColor="#cc2b2b"
+                            BorderWidth="3"
+                            CornerRadius="15"/>
+                    <Label Text="0"
+                           x:Name="lbl_compra_j4"
+                           TranslationX="55"
+                           IsVisible="false"/>
+                </StackLayout>
+            </Grid>
+            <Grid BackgroundColor="#dbd238" WidthRequest="75">
+                <Label Text=" J5"
+                       x:Name="lbl_j5"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label x:Name="lbl_p1_j5"
+                           TranslationY="30"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p2_j5"
+                           TranslationY="60"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p3_j5"
+                           TranslationY="90"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p4_j5"
+                           TranslationY="120"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p5_j5"
+                           TranslationY="150"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p6_j5"
+                           TranslationY="180"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p7_j5"
+                           TranslationY="210"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_total_j5"
+                           TranslationY="240"
+                           HorizontalOptions="Center"/>
+                <StackLayout>
+                    <Entry IsPassword="False"
+                           x:Name="tbx_j5"
+                           Completed="tbx_j5_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="35"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="25"/>
+
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p1_j5"
+                           Completed="tbx_p1_j5_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p2_j5"
+                           Completed="tbx_p2_j5_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p3_j5"
+                           Completed="tbx_p3_j5_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p4_j5"
+                           Completed="tbx_p4_j5_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p5_j5"
+                           Completed="tbx_p5_j5_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p6_j5"
+                           Completed="tbx_p6_j5_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p7_j5"
+                           Completed="tbx_p7_j5_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+
+                    <Button TranslationY="15"
+                            HeightRequest="35"
+                            x:Name="btn_total_j5"
+                            Text="TOTAL"
+                            Clicked="btn_total_j5_Clicked"
+                            IsVisible="false"/>
+
+                    <Button Text="+"
+                            ScaleX="0.3"
+                            ScaleY="0.5"
+                            TranslationX="-20"
+                            TranslationY="40"
+                            x:Name="btn_compra_j5"
+                            Clicked="btn_compra_j5_Clicked"
+                            IsVisible="false"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            BorderColor="#af1a1a"
+                            BackgroundColor="#cc2b2b"
+                            BorderWidth="3"
+                            CornerRadius="15"/>
+                    <Label Text="0"
+                           x:Name="lbl_compra_j5"
+                           TranslationX="55"
+                           IsVisible="false"/>
+                </StackLayout>
+            </Grid>
+            <Grid BackgroundColor="#dbd238" WidthRequest="75">
+                <Label Text=" J6"
+                       x:Name="lbl_j6"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label x:Name="lbl_p1_j6"
+                           TranslationY="30"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p2_j6"
+                           TranslationY="60"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p3_j6"
+                           TranslationY="90"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p4_j6"
+                           TranslationY="120"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p5_j6"
+                           TranslationY="150"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p6_j6"
+                           TranslationY="180"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p7_j6"
+                           TranslationY="210"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_total_j6"
+                           TranslationY="240"
+                           HorizontalOptions="Center"/>
+                <StackLayout >
+                    <Entry IsPassword="False"
+                           x:Name="tbx_j6"
+                           Completed="tbx_j6_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="35"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="25"/>
+
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p1_j6"
+                           Completed="tbx_p1_j6_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p2_j6"
+                           Completed="tbx_p2_j6_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p3_j6"
+                           Completed="tbx_p3_j6_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p4_j6"
+                           Completed="tbx_p4_j6_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p5_j6"
+                           Completed="tbx_p5_j6_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p6_j6"
+                           Completed="tbx_p6_j6_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p7_j6"
+                           Completed="tbx_p7_j6_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+
+                    <Button TranslationY="15"
+                            HeightRequest="35"
+                            x:Name="btn_total_j6"
+                            Text="TOTAL"
+                            Clicked="btn_total_j6_Clicked"
+                            IsVisible="false"/>
+
+                    <Button Text="+"
+                            ScaleX="0.3"
+                            ScaleY="0.5"
+                            TranslationX="-20"
+                            TranslationY="40"
+                            x:Name="btn_compra_j6"
+                            Clicked="btn_compra_j6_Clicked"
+                            IsVisible="false"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            BorderColor="#af1a1a"
+                            BackgroundColor="#cc2b2b"
+                            BorderWidth="3"
+                            CornerRadius="15"/>
+                    <Label Text="0"
+                           x:Name="lbl_compra_j6"
+                           TranslationX="55"
+                           IsVisible="false"/>
+                </StackLayout>
+            </Grid>
+            <Grid BackgroundColor="#dbd238" WidthRequest="75">
+                <Label Text=" J7"
+                       x:Name="lbl_j7"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                
+                <Label x:Name="lbl_p1_j7"
+                           TranslationY="30"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p2_j7"
+                           TranslationY="60"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p3_j7"
+                           TranslationY="90"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p4_j7"
+                           TranslationY="120"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p5_j7"
+                           TranslationY="150"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p6_j7"
+                           TranslationY="180"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p7_j7"
+                           TranslationY="210"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_total_j7"
+                           TranslationY="240"
+                           HorizontalOptions="Center"/>
+                <StackLayout >
+                    <Entry IsPassword="False"
+                           x:Name="tbx_j7"
+                           Completed="tbx_j7_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="35"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="25"/>
+
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p1_j7"
+                           Completed="tbx_p1_j7_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p2_j7"
+                           Completed="tbx_p2_j7_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p3_j7"
+                           Completed="tbx_p3_j7_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p4_j7"
+                           Completed="tbx_p4_j7_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p5_j7"
+                           Completed="tbx_p5_j7_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p6_j7"
+                           Completed="tbx_p6_j7_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p7_j7"
+                           Completed="tbx_p7_j7_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+
+                    <Button TranslationY="15"
+                            HeightRequest="35"
+                            x:Name="btn_total_j7"
+                            Text="TOTAL"
+                            Clicked="btn_total_j7_Clicked"
+                            IsVisible="false"/>
+
+                    <Button Text="+"
+                            ScaleX="0.3"
+                            ScaleY="0.5"
+                            TranslationX="-20"
+                            TranslationY="40"
+                            x:Name="btn_compra_j7"
+                            Clicked="btn_compra_j7_Clicked"
+                            IsVisible="false"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            BorderColor="#af1a1a"
+                            BackgroundColor="#cc2b2b"
+                            BorderWidth="3"
+                            CornerRadius="15"/>
+                    <Label Text="0"
+                           x:Name="lbl_compra_j7"
+                           TranslationX="55"
+                           IsVisible="false"/>
+                </StackLayout>
+            </Grid>
+            <Grid BackgroundColor="#dbd238" WidthRequest="75">
+                <Label Text=" J8"
+                       x:Name="lbl_j8"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label x:Name="lbl_p1_j8"
+                           TranslationY="30"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p2_j8"
+                           TranslationY="60"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p3_j8"
+                           TranslationY="90"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p4_j8"
+                           TranslationY="120"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p5_j8"
+                           TranslationY="150"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p6_j8"
+                           TranslationY="180"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_p7_j8"
+                           TranslationY="210"
+                           HorizontalOptions="Center"/>
+
+                <Label x:Name="lbl_total_j8"
+                           TranslationY="240"
+                           HorizontalOptions="Center"/>
+                <StackLayout>
+                    <Entry IsPassword="False"
+                           x:Name="tbx_j8"
+                           Completed="tbx_j8_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="35"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="25"/>
+
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p1_j8"
+                           Completed="tbx_p1_j8_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p2_j8"
+                           Completed="tbx_p2_j8_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p3_j8"
+                           Completed="tbx_p3_j8_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p4_j8"
+                           Completed="tbx_p4_j8_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p5_j8"
+                           Completed="tbx_p5_j8_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p6_j8"
+                           Completed="tbx_p6_j8_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+                    <Entry Keyboard="Numeric"
+                           IsPassword="False"
+                           x:Name="tbx_p7_j8"
+                           Completed="tbx_p7_j8_Completed" 
+                           BackgroundColor="#ffffff"
+                           HeightRequest="25"
+                           FontSize="15"
+                           HorizontalTextAlignment="Center"
+                           TranslationY="27"
+                           IsVisible="false"/>
+
+                    <Button TranslationY="15"
+                            HeightRequest="35"
+                            x:Name="btn_total_j8"
+                            Text="TOTAL"
+                            Clicked="btn_total_j8_Clicked"
+                            IsVisible="false"/>
+
+                    <Button Text="+"
+                            ScaleX="0.3"
+                            ScaleY="0.5"
+                            TranslationX="-20"
+                            TranslationY="40"
+                            x:Name="btn_compra_j8"
+                            Clicked="btn_compra_j8_Clicked"
+                            IsVisible="false"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            BorderColor="#af1a1a"
+                            BackgroundColor="#cc2b2b"
+                            BorderWidth="3"
+                            CornerRadius="15"/>
+                    <Label Text="0"
+                           x:Name="lbl_compra_j8"
+                           TranslationX="55"
+                           IsVisible="false"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

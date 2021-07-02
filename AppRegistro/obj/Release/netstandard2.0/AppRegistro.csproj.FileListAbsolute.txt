@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\bin\Release\netstandard2.0\AppRegistro.deps.json
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\bin\Release\netstandard2.0\AppRegistro.dll
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\bin\Release\netstandard2.0\ref\AppRegistro.dll
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\bin\Release\netstandard2.0\AppRegistro.pdb
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\obj\Release\netstandard2.0\AppRegistro.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\obj\Release\netstandard2.0\DataPage.xaml.g.cs
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\obj\Release\netstandard2.0\AppRegistro.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\obj\Release\netstandard2.0\AppRegistro.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\obj\Release\netstandard2.0\AppRegistro.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\obj\Release\netstandard2.0\AppRegistro.dll
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\obj\Release\netstandard2.0\ref\AppRegistro.dll
+C:\Users\Usuario\Desktop\AppRegistro\AppRegistro\obj\Release\netstandard2.0\AppRegistro.pdb
